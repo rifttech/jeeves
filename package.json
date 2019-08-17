@@ -1,5 +1,5 @@
 {
-  "name": "servant",
+  "name": "servo-cli",
   "version": "0.0.1",
   "description": "A command line tool for server instance management",
   "scripts": {
@@ -11,12 +11,12 @@
   "author": "Abramov Arthur <rifttech.arthur@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rifttech/servant-cli.git"
+    "url": "git+https://github.com/rifttech/servo-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/rifttech/servant-cli/issues"
+    "url": "https://github.com/rifttech/servo-cli/issues"
   },
-  "homepage":"https://github.com/rifttech/servant-cli#readme",
+  "homepage":"https://github.com/rifttech/servo-cli#readme",
   "license": "MIT",
   "dependencies": {
     "@types/request": "^2.48.2",

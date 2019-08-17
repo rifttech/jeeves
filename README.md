@@ -1,1 +1,1 @@
-# servant-cli
+# servo-cli

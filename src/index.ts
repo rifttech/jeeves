@@ -1,1 +1,1 @@
-console.log("initial");
+console.warn("initial");
