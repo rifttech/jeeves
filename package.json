@@ -5,9 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:cli": "node dist/index.js",
-    "build": "webpack --watch --mode development"
+    "build": "webpack --watch --mode development",
+    "postinstall": "node ./bin/env.js",
+    "prod": "rimraf ./bin && cross-env NODE_ENV=production webpack --mode production"
   },
-  "keywords": ["cli", "tool"],
+  "keywords": [
+    "cli",
+    "tool"
+  ],
+  "bin": "bin/cli.js",
   "author": "Abramov Arthur <rifttech.arthur@gmail.com>",
   "repository": {
     "type": "git",
@@ -16,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/rifttech/servo-cli/issues"
   },
-  "homepage":"https://github.com/rifttech/servo-cli#readme",
+  "homepage": "https://github.com/rifttech/servo-cli#readme",
   "license": "MIT",
   "dependencies": {
     "@types/request": "^2.48.2",
@@ -37,10 +43,14 @@
     "@types/node": "^12.7.2",
     "@typescript-eslint/parser": "^2.0.0",
     "awesome-typescript-loader": "^5.2.1",
+    "chalk": "^2.4.2",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.0",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
     "typescript": "^3.5.3",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6"
