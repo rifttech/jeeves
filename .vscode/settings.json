@@ -1,0 +1,13 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 21,
+    "editor.fontLigatures": true,
+    "editor.autoIndent": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000
+}

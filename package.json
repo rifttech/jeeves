@@ -1,0 +1,48 @@
+{
+  "name": "servant",
+  "version": "0.0.1",
+  "description": "A command line tool for server instance management",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cli": "node dist/index.js",
+    "build": "webpack --watch --mode development"
+  },
+  "keywords": ["cli", "tool"],
+  "author": "Abramov Arthur <rifttech.arthur@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifttech/servant-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rifttech/servant-cli/issues"
+  },
+  "homepage":"https://github.com/rifttech/servant-cli#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@types/request": "^2.48.2",
+    "@types/request-promise": "^4.1.44",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-progress": "^3.0.0",
+    "commander": "^3.0.0",
+    "commander-ts": "^0.1.5",
+    "inquirer": "^6.5.1",
+    "reflect-metadata": "^0.1.13",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "slash": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.7.2",
+    "@typescript-eslint/parser": "^2.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}

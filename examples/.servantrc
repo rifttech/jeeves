@@ -1,0 +1,4 @@
+{
+    "registry": "$SERVANT_HOME/registry"
+    "hub": "$SERVANT_HOME/hub"
+}
